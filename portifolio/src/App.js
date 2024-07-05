@@ -13,7 +13,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react';
 import { FaSun, FaMoon } from 'react-icons/fa';
-
+ 
 const App = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const sectionBgColor = useColorModeValue('gray.100', 'gray.700');
