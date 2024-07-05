@@ -31,7 +31,7 @@ const App = () => {
             alt="Profile Picture"
             marginRight="4"
           />
-          <Heading as="h1" size="lg">
+          <Heading as="h1" size="lg" marginRight="4">
             Luiz Gabriel Wojtovicz
           </Heading>
         </Flex>
