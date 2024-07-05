@@ -87,7 +87,8 @@ const App = () => {
 
       <Box as="section" id="contact" padding="8">
         <Heading as="h2" size="xl" mb="4">Contato</Heading>
-        <Text>Email: <Link href="mailto:email@example.com">email@example.com</Link></Text>
+        <Text>Email: <Link href="mailto:luigabrielw@gmail.com">luigabrielw@gmail.com</Link></Text>
+        <Text>Linkedin: <Link href="https://www.linkedin.com/in/luizgabrielwojtovicz/">www.linkedin.com/in/luizgabrielwojtovicz/</Link></Text>
       </Box>
 
       <Box as="footer" padding="4" bg="gray.800" color="white" textAlign="center">
