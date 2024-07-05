@@ -22,8 +22,14 @@ const App = () => {
 
   return (
     <Box>
-      <Flex as="header" padding="4" justifyContent="space-between" alignItems="center">
-        <Flex alignItems="center">
+      <Flex
+        as="header"
+        padding="4"
+        justifyContent="space-between"
+        alignItems="center"
+        flexDirection={{ base: 'column', md: 'row' }} // Alteração aqui
+      >
+        <Flex alignItems="center" marginBottom={{ base: '4', md: '0' }}>
           <Image
             borderRadius="full"
             boxSize="100px"
@@ -31,18 +37,24 @@ const App = () => {
             alt="Profile Picture"
             marginRight="4"
           />
-          <Heading as="h1" size="lg" marginRight="4">
+          <Heading as="h1" size="lg">
             Luiz Gabriel Wojtovicz
           </Heading>
         </Flex>
-        <Flex>
-          <Button as="a" href="#about" variant="link" marginRight="4">
+        <Flex
+          flex={{ base: 'none', md: '1' }} // Alteração aqui
+          alignItems={{ base: 'flex-start', md: 'center' }} // Alteração aqui
+          justifyContent={{ base: 'center', md: 'flex-end' }} // Alteração aqui
+          marginTop={{ base: '4', md: '0' }} // Alteração aqui
+          marginLeft={{ base: '0', md: '4' }} // Alteração aqui
+        >
+          <Button as="a" href="#about" variant="link" marginRight="4" marginBottom={{ base: '2', md: '0' }}>
             Sobre
           </Button>
-          <Button as="a" href="#projects" variant="link" marginRight="4">
+          <Button as="a" href="#projects" variant="link" marginRight="4" marginBottom={{ base: '2', md: '0' }}>
             Projetos
           </Button>
-          <Button as="a" href="#contact" variant="link">
+          <Button as="a" href="#contact" variant="link" marginBottom={{ base: '2', md: '0' }}>
             Contato
           </Button>
           <IconButton
