@@ -1,9 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
 import { ChakraProvider } from '@chakra-ui/react';
+import App from './App';
 
 ReactDOM.render(
   <ChakraProvider>
@@ -11,5 +9,3 @@ ReactDOM.render(
   </ChakraProvider>,
   document.getElementById('root')
 );
-
-reportWebVitals();
