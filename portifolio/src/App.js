@@ -82,7 +82,7 @@ const App = () => {
             <Heading as="h3" size="md" color={textColor}>Projeto 2</Heading>
             <Text color={textColor}>Descrição do projeto 2.</Text>
           </Box>
-        </Stack> 
+        </Stack>  
       </Box>
 
       <Box as="section" id="contact" padding="8">
