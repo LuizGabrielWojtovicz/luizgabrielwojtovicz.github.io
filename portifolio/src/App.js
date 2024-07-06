@@ -89,6 +89,7 @@ const App = () => {
         <Heading as="h2" size="xl" mb="4">Contato</Heading>
         <Text>Email: <Link href="mailto:luigabrielw@gmail.com">luigabrielw@gmail.com</Link></Text>
         <Text>Linkedin: <Link href="https://www.linkedin.com/in/luizgabrielwojtovicz/">www.linkedin.com/in/luizgabrielwojtovicz/</Link></Text>
+        <Text>Celular: (41) 99277-1021</Text>
       </Box>
 
       <Box as="footer" padding="4" bg="gray.800" color="white" textAlign="center">
