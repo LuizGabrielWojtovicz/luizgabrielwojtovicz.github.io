@@ -41,7 +41,7 @@ const App = () => {
             Luiz Gabriel Wojtovicz
           </Heading>
         </Flex>
-        <Flex
+        <Flex    
           flex={{ base: 'none', md: '1' }} // Alteração aqui
           alignItems={{ base: 'flex-start', md: 'center' }} // Alteração aqui
           justifyContent={{ base: 'center', md: 'flex-end' }} // Alteração aqui
